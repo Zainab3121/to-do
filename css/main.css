@@ -1,0 +1,100 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.error {
+    background-color: red;
+    color: white;
+    display: none;
+    padding: 6px 12px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(63, 29, 155);
+    padding: 0 14rem 4rem;
+    border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+nav h1 {
+    color: white;
+    font-weight: 400;
+}
+
+section {
+    background-color: rgb(224, 230, 241);
+}
+
+.white-background {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    background-color: white;
+    padding: 1.5rem;
+    width: 80%;
+    margin: auto;
+    border-radius: 5%;
+}
+
+.add {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.input {
+    padding: 10px 10rem;
+    font-size: 1.1rem;
+    padding:  10px;
+    width: 60%;
+    background-color: none;
+    outline: none; 
+    border: none;
+    border-bottom: 1px solid black ;
+    width: 90%;
+}
+
+.add-btn {
+    background-color: #F3603C;
+    border: none;
+    color: white;
+    padding: 5px 3rem;
+    border-radius: 5%;
+    box-shadow: 0 0 10px #F3603C;
+    cursor: pointer;
+}
+
+.main {
+    padding: 10px;
+    width: 88%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+
+.h3 {
+    background-color: white;
+    padding: 5px 1rem;
+}
+
+.todo-div {
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    justify-content: space-between;
+    background-color: white;
+    padding: 1px 1rem;
+    margin: 1rem 0;
+}
+
+.todo-container {
+    width: 100%;
+}
